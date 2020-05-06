@@ -10,7 +10,7 @@ with smtplib.SMTP('localhost',1025) as smtp:
 	# smtp.starttls() #encrypt our traffic
 	# smtp.ehlo()#Reidetify yourself as encrypted connection
 
-	# smtp.login(EMAIL_ADDRESS,EMAIL_PASS)
+	# smtp.login(EMAIL_ADDRESS,EMAIL_PASS)  
 
 # Plain Text Email from Scratch
 
