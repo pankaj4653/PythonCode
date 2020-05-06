@@ -1,5 +1,7 @@
 try :
 	f = open('file.txt','rb')
+	if f.name == 'file.txt':
+		raise Exception # You can raise Manual Exception handling
 	#var = new_var
 except FileNotFoundError as f:
 	#print(f)
